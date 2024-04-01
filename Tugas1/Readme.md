@@ -45,7 +45,7 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-![Screenshot (108).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Screenshot_(108).png)
+![Screenshot (108).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Screenshot_(108).png)
 
 1. install lxc 
 
@@ -53,7 +53,7 @@ sudo apt upgrade -y
 sudo apt-get install lxc lxctl lxc-templates net-tools  
 ```
 
-![Screenshot (109).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/62812b99-90e3-43cc-a6bb-df602326788e.png)
+![Screenshot (109).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/62812b99-90e3-43cc-a6bb-df602326788e.png)
 
 1. check konfigurasi 
 
@@ -61,7 +61,7 @@ sudo apt-get install lxc lxctl lxc-templates net-tools
 sudo lxc-checkconfig
 ```
 
-![Screenshot (110).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/8083eb1f-a0a5-4ce2-9941-4d50a267c269.png)
+![Screenshot (110).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/8083eb1f-a0a5-4ce2-9941-4d50a267c269.png)
 
 1. Menampilkan Template container yang tersedia 
 
@@ -79,7 +79,7 @@ sudo ls /usr/share/lxc/templates/
     sudo lxc-create -n namakontainer -t template
     ```
     
-    ![Screenshot (113).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/4a987b8f-fbf6-4c6c-8499-319a905a6133.png)
+    ![Screenshot (113).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/4a987b8f-fbf6-4c6c-8499-319a905a6133.png)
     
     Sehingga :
     
@@ -87,7 +87,7 @@ sudo ls /usr/share/lxc/templates/
     sudo lxc-create -n namakontainer -t template
     ```
     
-    ![Screenshot (114).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/7ad504af-efce-4c28-a553-02cdc398409a.png)
+    ![Screenshot (114).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/7ad504af-efce-4c28-a553-02cdc398409a.png)
     
 2. Menginstal server web Nginx beserta paket tambahan yang memperluas fungsionalitasnya.
     
@@ -95,7 +95,7 @@ sudo ls /usr/share/lxc/templates/
     sudo apt install nginx nginx-extras
     ```
     
-    ![Screenshot (115).png](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Screenshot_(115).png)
+    ![Screenshot (115).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Screenshot_(115).png)
     
 3. Masuk ke direktori di mana konfigurasi Nginx disimpan.
     
@@ -127,7 +127,7 @@ sudo ls /usr/share/lxc/templates/
     sudo cp default sister.local
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/2302cdbc-3cbe-4cb6-8c35-2586aa775998.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/2302cdbc-3cbe-4cb6-8c35-2586aa775998.png)
     
 4. Membuka berkas bernama **`sister.local`** dengan menggunakan editor teks Nano.
     
@@ -177,22 +177,22 @@ sudo ls /usr/share/lxc/templates/
     sudo nano index.html
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/62ac1996-da97-4542-9690-3254f3eefd1b.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/62ac1996-da97-4542-9690-3254f3eefd1b.png)
     
     Menjadi : 
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/972cb9ec-5325-42aa-b9df-f853166738e5.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/972cb9ec-5325-42aa-b9df-f853166738e5.png)
     
 7. Selanjutnya klik kanan notepad plih jalankan sebagai administrator lalu pilih file masuk ke local disk c - pilih windows - pilih System 32 - pilih drivers - pilih etc - dia pertama pilihanya menggunakan Dokumen txt ganti saja dengan Semua file agar data terlihat - Jika sudah pilih hosts- lalu tambahkan seperti dibawah ini lalu disimpan  :
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/4408e195-ad89-4552-97b7-a92be71dfe54.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/4408e195-ad89-4552-97b7-a92be71dfe54.png)
     
     Selanjutnya masuk ke google ketik : sister.local, jika berhasil akan muncul seperti ini :
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/85ef7752-d2c5-4282-975c-186e9181e004.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/85ef7752-d2c5-4282-975c-186e9181e004.png)
     
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/237ea8cf-555a-4db3-93fc-6e4114722088.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/237ea8cf-555a-4db3-93fc-6e4114722088.png)
 
 Menampilkan isi berkas **`index.html`** ke terminal.
 
@@ -208,7 +208,7 @@ cat index.html
     sudo ls /usr/share/lxc/templates/
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/669abd60-ff85-497a-83b2-1de2e086e8bf.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/669abd60-ff85-497a-83b2-1de2e086e8bf.png)
     
 2. Membuat kontainer Linux dengan nama **`microservice1`** dan **`microservice2`**menggunakan template download, dengan distribusi Ubuntu Focal Fossa (20.04) untuk arsitektur AMD64, dan menggunakan server image.linuxcontainers.org untuk mengunduh gambar kontainer.
     
@@ -216,7 +216,7 @@ cat index.html
     sudo lxc-create -n microservice1 -t download -- --dist ubuntu --release focal --arch amd64 --force-cache --server image.linuxcontainers.org
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/4c68862b-f548-4247-9daa-4b35b72ff8cd.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/4c68862b-f548-4247-9daa-4b35b72ff8cd.png)
     
     ```jsx
     sudo lxc-create -n microservice2 -t download -- --dist ubuntu --release focal --arch amd64 --force-cache --server image.linuxcontainers.org
@@ -250,7 +250,7 @@ cat index.html
     
 4. buka ubuntu baru 
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/7c4d9b85-2080-43db-ab08-05ca696bf1cd.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/7c4d9b85-2080-43db-ab08-05ca696bf1cd.png)
     
     Melampirkan terminal  ke dalam kontainer yang sedang berjalan dengan nama "microservice1", sehingga  dapat berinteraksi dengan lingkungan kontainer tersebut seperti menjalankan perintah di dalamnya.
     
@@ -260,7 +260,7 @@ cat index.html
     
     disini nanti mengisi password dan akan menampilan inet  disitu nanti harus diingat atau disimpan di notepad 
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/82747af7-5e95-4139-9694-574a2fbeacc0.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/82747af7-5e95-4139-9694-574a2fbeacc0.png)
     
     Membuka berkas konfigurasi jaringan dengan nama **`10-lxc.yaml`** menggunakan editor teks Nano, sehingga dapat mengedit atau melihat konfigurasi jaringan tersebut.
     
@@ -268,7 +268,7 @@ cat index.html
     nano /etc/netplan/10-lxc.yaml
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%201.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%201.png)
     
     Untuk addresses ini menggunakan inet yang tadi disimpan di notepad atau yang diingat tadi
     
@@ -294,7 +294,7 @@ cat index.html
     apt update; apt upgrade -y
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%202.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%202.png)
     
     Menginstal server web Nginx beserta paket tambahan Nginx-Extras pada sistem operasi Linux menggunakan manajer paket APT
     
@@ -302,7 +302,7 @@ cat index.html
     sudo apt install nginx nginx-extras
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/7e99bd21-72d0-4cec-acf9-9759ae799931.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/7e99bd21-72d0-4cec-acf9-9759ae799931.png)
     
     Berpindah ke direktori di mana berkas-berkas yang akan disajikan oleh server web biasanya disimpan pada sistem Linux.
     
@@ -310,7 +310,7 @@ cat index.html
     cd /var/www/html/
     ```
     
-    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%203.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/9ff0a8cc-c5cd-4855-8d1b-4330cc7e3e42.png)
     
     Membuka berkas 
     
@@ -345,7 +345,7 @@ cat index.html
     sudo lxc-attach -n microservice2
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/4d4ebb63-e7dd-4009-a632-0aa7f25b1045.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/4d4ebb63-e7dd-4009-a632-0aa7f25b1045.png)
     
     ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%207.png)
     
@@ -379,7 +379,7 @@ cat index.html
     ping google.com
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2010.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2010.png)
     
     Memperbarui daftar paket yang tersedia (update) dan menginstal pembaruan paket yang telah diperbarui (upgrade) secara otomatis tanpa perlu konfirmasi tambahan (-y).
     
@@ -393,7 +393,7 @@ cat index.html
     sudo apt install nginx nginx-extras
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2011.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2011.png)
     
     Berpindah ke direktori di mana berkas-berkas yang akan disajikan oleh server web biasanya disimpan pada sistem Linux.
     
@@ -401,7 +401,7 @@ cat index.html
     cd /var/www/html/
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2012.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2012.png)
     
     membuka berkas
     
@@ -409,7 +409,7 @@ cat index.html
     nano.index.nginx-debian.html
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2013.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2013.png)
     
     Menginstal perangkat lunak Curl pada sistem Linux. Curl adalah alat baris perintah yang digunakan untuk mentransfer data dengan berbagai protokol seperti HTTP, HTTPS, FTP, dan lainnya.
     
@@ -423,7 +423,7 @@ cat index.html
     curl localhost
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/119f85cc-b521-4220-8587-32b0784c8e05.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/119f85cc-b521-4220-8587-32b0784c8e05.png)
     
 6. buka ubuntu baru 
     
@@ -433,7 +433,7 @@ cat index.html
     sudo lxc-ls
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/0a8ed71e-dfcd-4908-8d34-f5ce5eee7677.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/0a8ed71e-dfcd-4908-8d34-f5ce5eee7677.png)
     
     Masuk ke direktori di mana konfigurasi situs web yang aktif (enabled) untuk server Nginx disimpan.
     
@@ -486,7 +486,7 @@ Berpindah ke direktori rumah pengguna saat ini.
 cd
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2015.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2015.png)
 
 Pindah ke direktori di mana konfigurasi untuk server web Nginx disimpan.
 
@@ -494,7 +494,7 @@ Pindah ke direktori di mana konfigurasi untuk server web Nginx disimpan.
 cd /etc/nginx/
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2016.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2016.png)
 
 Memindahkan direktori saat ini ke direktori **`sites-enabled`** yang berada di dalam direktori **`/etc/nginx/`**.
 
@@ -502,7 +502,7 @@ Memindahkan direktori saat ini ke direktori **`sites-enabled`** yang berada di d
 /etc/nginx# cd sites-enabled/
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/768aaa88-c864-4e22-985f-23ff74a1d3ff.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/768aaa88-c864-4e22-985f-23ff74a1d3ff.png)
 
 Menyalin berkas **`default`** menjadi **`mcsv1.local`**.
 
@@ -510,7 +510,7 @@ Menyalin berkas **`default`** menjadi **`mcsv1.local`**.
 cp default mcsv1.local
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2017.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2017.png)
 
 Membuka berkas **`mcsv1.local`** menggunakan editor teks Nano, sehingga memungkinkan Anda untuk mengedit atau melihat isi berkas tersebut.
 
@@ -526,7 +526,7 @@ Memeriksa sintaksis dari konfigurasi Nginx.
 sudo nginx-t
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2018.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2018.png)
 
 Memuat ulang konfigurasi Nginx tanpa perlu menghentikan server, sehingga perubahan konfigurasi baru bisa diterapkan tanpa mengganggu layanan web yang sedang berjalan.
 
@@ -552,7 +552,7 @@ cp index.nginx-debian.html index.html
 sudo nano /etc/hosts
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/01aa51c9-2c6d-4016-85f1-93d1757fbbd7.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/01aa51c9-2c6d-4016-85f1-93d1757fbbd7.png)
 
 ```jsx
 curl mcsv1.local
@@ -580,7 +580,7 @@ Menyalin berkas **`default`** menjadi **`mcsv2.local`**.
 cp default mcsv2.local
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/Untitled%2019.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2019.png)
 
 Membuka berkas **`mcsv2.local`** menggunakan editor teks Nano, sehingga Anda dapat mengedit atau melihat isi berkas tersebut.
 
@@ -616,7 +616,7 @@ Membuka berkas **`hosts`** menggunakan editor teks Nano dengan izin superuser (s
 sudo nano /etc/hosts
 ```
 
-![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/aa3213e2-3125-41f7-bc58-8ead11189f0d.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/17f3d665-dbca-4c19-b47f-ee3949ec47f0.png)
 
 ```jsx
 cd /var/www/html
@@ -658,7 +658,7 @@ mengirimkan permintaan HTTP GET ke server yang diakses melalui alamat URL **`mcs
 curl mcsv2.local
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/3372a36d-2fac-4c54-be9d-9b2c96ac5183.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/3372a36d-2fac-4c54-be9d-9b2c96ac5183.png)
 
 ```jsx
 sudo nano sister.local
@@ -670,7 +670,7 @@ sudo nano sister.local
 sudo nginx -t
 ```
 
-![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/b2f73c6c-f9df-44db-8002-39d1eb1a613c.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/2ca22560-b6ae-4aeb-b942-3a1240951918.png)
 
 ```jsx
 sudo nginx -s reload
@@ -704,7 +704,7 @@ Mengirim permintaan HTTP GET ke alamat URL **`sister.local/blog`** menggunakan p
 curl sister.local/blog
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/3e33482a-4931-4247-a6e5-91c2367f01ac.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/3e33482a-4931-4247-a6e5-91c2367f01ac.png)
 
 Mengirimkan permintaan HTTP GET ke alamat URL **`sister.local/aboutus`** menggunakan perangkat cURL. Ini akan mengambil konten yang disajikan oleh server web di alamat URL tersebut dan menampilkannya dalam terminal.
 
@@ -712,7 +712,7 @@ Mengirimkan permintaan HTTP GET ke alamat URL **`sister.local/aboutus`** menggun
 curl sister.local/aboutus
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/8822c43b-c60e-403e-8cbb-e97b7ee624ca.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/8822c43b-c60e-403e-8cbb-e97b7ee624ca.png)
 
 ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2025.png)
 
