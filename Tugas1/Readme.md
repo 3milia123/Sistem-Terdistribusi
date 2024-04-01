@@ -606,7 +606,7 @@ sudo nginx -s reload
 cd var/www/html
 ```
 
-![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2018.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2012.png)
 
 Membuka berkas **`hosts`** menggunakan editor teks Nano dengan izin superuser (sudo), sehingga memungkinkan Anda untuk mengedit atau melihat isi berkas tersebut. Berkas **`hosts`** digunakan untuk memetakan alamat IP ke nama domain yang sesuai, dan sering digunakan untuk mengatur resolusi nama di sistem operasi Linux
 
