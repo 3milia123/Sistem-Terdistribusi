@@ -310,8 +310,6 @@ cat index.html
     cd /var/www/html/
     ```
     
-    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/9ff0a8cc-c5cd-4855-8d1b-4330cc7e3e42.png)
-    
     Membuka berkas 
     
     ```jsx
