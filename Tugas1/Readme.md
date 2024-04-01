@@ -640,7 +640,7 @@ Membuka berkas **`hosts`** menggunakan editor teks Nano dengan izin superuser (s
 sudo nano /etc/hosts
 ```
 
-![Untitled]()
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/aa3213e2-3125-41f7-bc58-8ead11189f0d.png)
 
 Mengirimkan permintaan HTTP GET ke server yang diakses melalui alamat URL **`mcsv1.local`** menggunakan perangkat cURL. Ini akan mengambil konten yang disajikan oleh server web di alamat URL tersebut dan menampilkannya dalam terminal.
 
