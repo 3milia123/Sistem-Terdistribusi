@@ -10,7 +10,7 @@ instalasi vm [https://ciperx.com/install-ubuntu-server/](https://ciperx.com/inst
 sudo apt install -y build-essential linux-headers-$(uname -r)
 ```
 
-1. mengganti sources list ubuntu 
+2. mengganti sources list ubuntu 
 
 ```jsx
 sudo nano /etc/apt/sources.list
@@ -47,7 +47,7 @@ sudo apt upgrade -y
 
 ![Screenshot (108).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Screenshot_(108).png)
 
-1. install lxc 
+3. install lxc 
 
 ```jsx
 sudo apt-get install lxc lxctl lxc-templates net-tools  
@@ -55,7 +55,7 @@ sudo apt-get install lxc lxctl lxc-templates net-tools
 
 ![Screenshot (109).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/62812b99-90e3-43cc-a6bb-df602326788e.png)
 
-1. check konfigurasi 
+4. check konfigurasi 
 
 ```jsx
 sudo lxc-checkconfig
@@ -63,7 +63,7 @@ sudo lxc-checkconfig
 
 ![Screenshot (110).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/8083eb1f-a0a5-4ce2-9941-4d50a267c269.png)
 
-1. Menampilkan Template container yang tersedia 
+5. Menampilkan Template container yang tersedia 
 
 ```jsx
 sudo ls /usr/share/lxc/templates/
@@ -71,7 +71,7 @@ sudo ls /usr/share/lxc/templates/
 
 ![Screenshot (111).png](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/af89182f-0cd4-4499-85f1-e8beb7b38d4b.png)
 
-1. Membuat container Ubuntu 
+6. Membuat container Ubuntu 
     
     Syntax Command :
     
