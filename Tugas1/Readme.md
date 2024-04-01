@@ -688,7 +688,7 @@ Memeriksa sintaksis dari konfigurasi Nginx. Ini akan menguji apakah konfigurasi 
 sudo nginx -t
 ```
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/b2f73c6c-f9df-44db-8002-39d1eb1a613c.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%2014.png)
 
 Memuat ulang konfigurasi Nginx tanpa perlu menghentikan server. Ini memungkinkan perubahan konfigurasi baru diterapkan tanpa mengganggu layanan web yang sedang berjalan.
 
