@@ -2,7 +2,7 @@
 
 instalasi vm [https://ciperx.com/install-ubuntu-server/](https://ciperx.com/install-ubuntu-server/)
 
-![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/23d6b07d-404b-4b7e-8966-bf523dade30d.png)
+![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/23d6b07d-404b-4b7e-8966-bf523dade30d.png)
 
 1. persiapan server host 
 
