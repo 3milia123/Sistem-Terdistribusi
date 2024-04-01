@@ -441,7 +441,7 @@ cat index.html
     cd /etc/nginx/sites-enabled/
     ```
     
-    ![Untitled](Sistem%20Terdistribusi%20634119b65f484863ad20ab8e1653d51f/65d92a65-4f14-49ef-9337-1f483a43bf77.png)
+    ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/65d92a65-4f14-49ef-9337-1f483a43bf77.png)
     
     Menampilkan daftar file dan direktori di direktori saat ini.
     
