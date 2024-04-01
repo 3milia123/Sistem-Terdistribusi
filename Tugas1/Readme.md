@@ -248,7 +248,7 @@ cat index.html
     
     ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/f48dca4b-3051-4d6e-81ec-12ad7d027733.png)
     
-4. buka ubuntu baru 
+1. buka ubuntu baru 
     
     ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/7c4d9b85-2080-43db-ab08-05ca696bf1cd.png)
     
@@ -337,7 +337,7 @@ cat index.html
     
     ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/Untitled%206.png)
     
-5. Melampirkan terminal  ke dalam kontainer yang sedang berjalan dengan nama "microservice2", sehingga  dapat berinteraksi dengan lingkungan kontainer tersebut seperti menjalankan perintah di dalamnya.
+2. Melampirkan terminal  ke dalam kontainer yang sedang berjalan dengan nama "microservice2", sehingga  dapat berinteraksi dengan lingkungan kontainer tersebut seperti menjalankan perintah di dalamnya.
     
     ```jsx
     sudo lxc-attach -n microservice2
@@ -423,7 +423,7 @@ cat index.html
     
     ![Untitled](https://github.com/3milia123/Sistem-Terdistribusi/blob/main/Tugas1/Image/119f85cc-b521-4220-8587-32b0784c8e05.png)
     
-6. buka ubuntu baru 
+3. buka ubuntu baru 
     
     Menampilkan daftar semua kontainer yang ada pada sistem.
     
